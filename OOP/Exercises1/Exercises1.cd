@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="OOP.Exercises1.School">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAEAAAABAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exercises1\School.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP.Exercises1.Class">
+    <Position X="15" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAgAAAAIAAEAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Exercises1\Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP.Exercises1.Comment">
+    <Position X="9.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exercises1\Comment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP.Exercises1.Discipline">
+    <Position X="11.75" Y="10" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAJAAAICAAACAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Exercises1\Discipline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP.Exercises1.Person">
+    <Position X="5.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAg=</HashCode>
+      <FileName>Exercises1\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP.Exercises1.Students">
+    <Position X="7.5" Y="11" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAACAAAA=</HashCode>
+      <FileName>Exercises1\Students.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP.Exercises1.Teachers">
+    <Position X="2.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exercises1\Teachers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
