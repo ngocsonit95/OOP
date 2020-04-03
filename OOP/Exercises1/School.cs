@@ -20,7 +20,7 @@ namespace OOP.Exercises1
         // Properties
         public string SchoolName
         {
-            get { return this.schoolName; }
+            get { return schoolName; }
             set
             {
                 if (value == null)
@@ -29,14 +29,14 @@ namespace OOP.Exercises1
                 }
                 else
                 {
-                    this.schoolName = value;
+                    schoolName = value;
                 }
             }
         }
 
         public List<Class> Classes
         {
-            get { return this.classes; }
+            get { return classes; }
             set {
                 if (value == null)
                 {
@@ -44,10 +44,9 @@ namespace OOP.Exercises1
                 }
                 else
                 {
-                    this.classes = value;
+                    classes = value;
                 }
             }
         }
-       
     }
 }

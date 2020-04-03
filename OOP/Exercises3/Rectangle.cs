@@ -2,7 +2,7 @@
 
 namespace OOP.Exercises3
 {
-    internal class Rectangle : Shape
+    public class Rectangle : Shape
     {
         public Rectangle(double _width, double _height) : base(_width, _height)
         {

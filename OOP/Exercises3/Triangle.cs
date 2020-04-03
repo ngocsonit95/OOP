@@ -3,13 +3,13 @@ using System.Threading;
 
 namespace OOP.Exercises3
 {
-    internal class Triangle : Shape
+    public class Triangle : Shape
     {
         public Triangle(double width, double height) : base(width, height)
         {
         }
 
-      
+
         public override double CalculateSurface()
         {
             double surface;

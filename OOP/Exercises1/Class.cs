@@ -6,7 +6,8 @@ namespace OOP.Exercises1
     public class Class : Comment
     {
         private string classId;
-
+        public List<Students> Students { get; set; }
+        public List<Teachers> Teachers { get; set; }
         /// <summary>
         /// Constructor students
         /// </summary>
@@ -19,16 +20,6 @@ namespace OOP.Exercises1
             Teachers = teachers;
             ClassId = classId;
         }
-
-        /// <summary>
-        /// Properties Students
-        /// </summary>
-        public List<Students> Students { get; set; }
-
-        /// <summary>
-        /// Teachers
-        /// </summary>
-        public List<Teachers> Teachers { get; set; }
 
         public string ClassId
         {
@@ -56,7 +47,6 @@ namespace OOP.Exercises1
             {
                 Console.WriteLine("Full name: {0}, Class: {1}, ClassID: {2}", element.FirstName + " " + element.LastName, element.StudentClassNumber, ClassId);
             }
-            Console.WriteLine();
 
             // Print information about teachers
             Console.WriteLine("Teacher: ");
@@ -72,7 +62,6 @@ namespace OOP.Exercises1
                     Console.WriteLine();
                 }
             }
-
             return base.ToString();
         }
     }

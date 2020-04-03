@@ -6,7 +6,7 @@ namespace OOP.Exercises4
     public abstract class Animal : ISound
     {
         private string name;
-        private int age;
+        private double age;
         private string sex;
 
         /// <summary>
@@ -15,7 +15,7 @@ namespace OOP.Exercises4
         /// <param name="name"></param>
         /// <param name="age"></param>
         /// <param name="sex"></param>
-        protected Animal(string name, int age, string sex)
+        protected Animal(string name, double age, string sex)
         {
             this.Name = name;
             this.Age = age;
@@ -41,7 +41,7 @@ namespace OOP.Exercises4
             }
         }
 
-        public int Age
+        public double Age
         {
             get { return this.age; }
             set

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{2AEFD19F-9B5D-479A-8D79-9D5EC03147CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPTests", "OOPTests\OOPTests.csproj", "{9ED08A52-99D5-443C-AB29-BD4D0C8AE993}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{2AEFD19F-9B5D-479A-8D79-9D5EC03147CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AEFD19F-9B5D-479A-8D79-9D5EC03147CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AEFD19F-9B5D-479A-8D79-9D5EC03147CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED08A52-99D5-443C-AB29-BD4D0C8AE993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED08A52-99D5-443C-AB29-BD4D0C8AE993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED08A52-99D5-443C-AB29-BD4D0C8AE993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED08A52-99D5-443C-AB29-BD4D0C8AE993}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {346E6238-D75A-4E8E-AD3B-FAA2B0C7570B}
 	EndGlobalSection
 EndGlobal

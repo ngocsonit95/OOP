@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace OOP.Exercises3
 {
-    internal class Circle : Shape
+    public class Circle : Shape
     {
         public Circle(double radius)
             : base(radius, radius)
@@ -19,7 +19,7 @@ namespace OOP.Exercises3
             double surface;
             try
             {
-                surface = Math.PI * (this.Width / 2.0) * (this.Height / 2.0);
+                surface = Math.PI * (Width / 2.0) * (Height / 2.0);
             }
             catch (Exception ex)
             {

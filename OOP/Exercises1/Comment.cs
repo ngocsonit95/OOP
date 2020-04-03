@@ -38,7 +38,7 @@ namespace OOP.Exercises1
         //Methods AddComment
         public void AddComment(string addComment)
         {
-            InputComment.Add(addComment);
+            this.InputComment.Add(addComment);
         }
     }
 }
