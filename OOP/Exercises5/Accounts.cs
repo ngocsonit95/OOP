@@ -7,8 +7,8 @@ namespace OOP.Exercises5
         //Declar Fields
         private Customer customer;
 
-        private decimal balance;
-        private decimal interestRate;
+        private double balance;
+        private double interestRate;
 
         /// <summary>
         /// Constructor Accounts
@@ -16,10 +16,10 @@ namespace OOP.Exercises5
         /// <param name="customer"></param>
         /// <param name="balance"></param>
         /// <param name="interestRate"></param>
-        protected Accounts(Customer customer, decimal balance, decimal interestRate)
+        public Accounts(Customer customer, double balance, double interestRate)
         {
-            this.customer     = customer;
-            this.balance      = balance;
+            this.customer = customer;
+            this.balance = balance;
             this.interestRate = interestRate;
         }
 
@@ -42,7 +42,7 @@ namespace OOP.Exercises5
             }
         }
 
-        public decimal Balance
+        public double Balance
         {
             get { return this.balance; }
             set
@@ -58,7 +58,7 @@ namespace OOP.Exercises5
             }
         }
 
-        public decimal InterestRate
+        public double InterestRate
         {
             get { return this.interestRate; }
             set

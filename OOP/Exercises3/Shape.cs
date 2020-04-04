@@ -7,7 +7,7 @@ namespace OOP.Exercises3
         private double width;
         private double height;
 
-        protected Shape(double width, double height)
+        public Shape(double width, double height)
         {
             this.Width = width;
             this.Height = height;

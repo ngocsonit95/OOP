@@ -3,6 +3,6 @@
     public interface IDepositable
     {
         //Method Deposit
-        void Deposit(decimal depositMoney);
+        void Deposit(double depositMoney);
     }
 }

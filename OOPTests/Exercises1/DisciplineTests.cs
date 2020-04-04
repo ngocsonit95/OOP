@@ -1,5 +1,4 @@
-﻿
-using Xunit;
+﻿using Xunit;
 
 namespace OOP.Exercises1.Tests
 {
@@ -8,7 +7,7 @@ namespace OOP.Exercises1.Tests
         [Fact]
         public void Property_CreateObjectNotNull_DisciplineNameTest()
         {
-            var discipline =new Discipline("Mathematics", 2, 2);
+            var discipline = new Discipline("Mathematics", 2, 2);
             var actualDisciplineName = discipline.DisciplineName;
             Assert.NotNull(actualDisciplineName);
         }

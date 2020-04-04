@@ -94,11 +94,21 @@
     <Compile Include="Exercises1\SchoolTests.cs" />
     <Compile Include="Exercises1\StudentsTests.cs" />
     <Compile Include="Exercises1\TeachersTests.cs" />
+    <Compile Include="Exercises2\HumanTests.cs" />
+    <Compile Include="Exercises2\StudentTests.cs" />
     <Compile Include="Exercises2\WorkerTests.cs" />
     <Compile Include="Exercises3\CircleTests.cs" />
     <Compile Include="Exercises3\RectangleTests.cs" />
+    <Compile Include="Exercises3\ShapeTests.cs" />
     <Compile Include="Exercises3\TriangleTests.cs" />
     <Compile Include="Exercises4\AnimalTests.cs" />
+    <Compile Include="Exercises4\CatTests.cs" />
+    <Compile Include="Exercises4\DogTests.cs" />
+    <Compile Include="Exercises4\FrogTests.cs" />
+    <Compile Include="Exercises4\KittenTests.cs" />
+    <Compile Include="Exercises4\TomCatTests.cs" />
+    <Compile Include="Exercises5\CustomerTests.cs" />
+    <Compile Include="Exercises5\DepositAccountTests.cs" />
     <Compile Include="Exercises5\MortgageAccountTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

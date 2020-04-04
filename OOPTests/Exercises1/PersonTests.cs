@@ -1,10 +1,9 @@
 ﻿using Xunit;
+
 namespace OOP.Exercises1.Tests
 {
-
     public class PersonTests
     {
-
         [Fact]
         public void Contructor_CreateObjectNotNull_PersonTest()
         {

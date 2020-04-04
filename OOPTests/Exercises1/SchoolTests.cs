@@ -18,7 +18,7 @@ namespace OOP.Exercises1.Tests
 
             var classes = new Class(new List<Students> { goodStudent, badStudent }, new List<Teachers> { teacher }, "A");
 
-            var actualSchool = new School(new List<Class>{ classes }, "Phan Chu Trinh");
+            var actualSchool = new School(new List<Class> { classes }, "Phan Chu Trinh");
             Assert.NotNull(actualSchool);
         }
 
@@ -57,7 +57,5 @@ namespace OOP.Exercises1.Tests
             var actualClasses = school.Classes;
             Assert.NotNull(actualClasses);
         }
-
-
     }
 }

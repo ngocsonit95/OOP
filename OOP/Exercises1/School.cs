@@ -37,7 +37,8 @@ namespace OOP.Exercises1
         public List<Class> Classes
         {
             get { return classes; }
-            set {
+            set
+            {
                 if (value == null)
                 {
                     throw new ArgumentNullException($"Classes name cannot be null!");

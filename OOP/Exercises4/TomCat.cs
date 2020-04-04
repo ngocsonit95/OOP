@@ -2,7 +2,7 @@
 
 namespace OOP.Exercises4
 {
-    internal class TomCat : Cat
+    public class TomCat : Cat
     {
         public TomCat(string name, int age, string thisCat) : base(name, age, "male", thisCat)
         {

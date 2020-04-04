@@ -15,7 +15,7 @@ namespace OOP.Exercises1.Tests
         public void Properties_CreateObjectNotNull_InputCommentTest()
         {
             var comment = new Comment();
-            var actualInputComment  = comment.InputComment;
+            var actualInputComment = comment.InputComment;
             Assert.NotNull(actualInputComment);
         }
 
@@ -23,9 +23,8 @@ namespace OOP.Exercises1.Tests
         public void Method_CreateObjectNotNull_AddCommentTest()
         {
             var comment = new Comment();
-           comment.AddComment("comment");
+            comment.AddComment("comment");
             Assert.NotNull("comment");
         }
     }
-
 }

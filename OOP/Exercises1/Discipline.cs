@@ -9,6 +9,7 @@ namespace OOP.Exercises1
 
         private int numberOfLectures;
         private int numberOfExercises;
+
         /// <summary>
         /// Constructor Discipline
         /// </summary>

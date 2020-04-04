@@ -4,7 +4,6 @@ namespace OOP.Exercises4
 {
     public class Cat : Animal
     {
-
         /// <summary>
         /// Constructor
         /// </summary>

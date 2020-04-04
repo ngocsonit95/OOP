@@ -9,7 +9,6 @@ namespace OOP.Exercises3
         {
         }
 
-
         public override double CalculateSurface()
         {
             double surface;

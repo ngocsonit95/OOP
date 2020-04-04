@@ -97,7 +97,7 @@
     <Compile Include="Exercises4\Interface\ISound.cs" />
     <Compile Include="Exercises4\Kitten.cs" />
     <Compile Include="Exercises4\TomCat.cs" />
-    <Compile Include="Exercises5\Account.cs" />
+    <Compile Include="Exercises5\Accounts.cs" />
     <Compile Include="Exercises5\Customer.cs" />
     <Compile Include="Exercises5\DepositAccount.cs" />
     <Compile Include="Exercises5\Enum\CustomerType.cs" />

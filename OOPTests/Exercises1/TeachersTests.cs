@@ -12,6 +12,5 @@ namespace OOP.Exercises1.Tests
             var actualTeacher = new Teachers("Minh Quang", "Le", new List<Discipline> { economy });
             Assert.NotNull(actualTeacher);
         }
-
     }
 }

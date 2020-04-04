@@ -6,6 +6,6 @@
         /// WithDraw
         /// </summary>
         /// <param name="withDrawMoney"></param>
-        void WithDraw(decimal withDrawMoney);
+        void WithDraw(double withDrawMoney);
     }
 }

@@ -5,7 +5,6 @@ namespace OOP.Exercises5
 {
     public class Customer
     {
-
         private string fullName;
         private string address;
         private string phoneNumber;

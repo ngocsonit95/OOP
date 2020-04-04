@@ -5,3 +5,6 @@ dotnet_diagnostic.S2699.severity = none
 
 # S4144: Methods should not have identical implementations
 dotnet_diagnostic.S4144.severity = none
+
+# S1481: Unused local variables should be removed
+dotnet_diagnostic.S1481.severity = none

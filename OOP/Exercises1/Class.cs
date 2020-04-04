@@ -8,6 +8,7 @@ namespace OOP.Exercises1
         private string classId;
         public List<Students> Students { get; set; }
         public List<Teachers> Teachers { get; set; }
+
         /// <summary>
         /// Constructor students
         /// </summary>

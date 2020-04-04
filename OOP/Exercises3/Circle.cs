@@ -23,7 +23,7 @@ namespace OOP.Exercises3
             }
             catch (Exception ex)
             {
-              throw new AbandonedMutexException(ex.ToString());
+                throw new AbandonedMutexException(ex.ToString());
             }
             return surface;
         }

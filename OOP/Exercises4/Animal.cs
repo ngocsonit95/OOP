@@ -32,7 +32,7 @@ namespace OOP.Exercises4
             {
                 if (string.IsNullOrEmpty(value))
                 {
-                    throw  new  AbandonedMutexException($"Nam can not be null or empty");
+                    throw new AbandonedMutexException($"Nam can not be null or empty");
                 }
                 else
                 {
@@ -92,7 +92,7 @@ namespace OOP.Exercises4
             }
             catch (System.Exception ex)
             {
-              throw new AbandonedMutexException(ex.ToString());
+                throw new AbandonedMutexException(ex.ToString());
             }
             return result;
         }

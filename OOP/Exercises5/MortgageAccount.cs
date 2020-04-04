@@ -3,7 +3,7 @@ using System;
 
 namespace OOP.Exercises5
 {
-    public class MortgageAccount : Account, IDepositable
+    public class MortgageAccount : Accounts, IDepositable
     {
         /// <summary>
         /// Constructor MortgageAccount
@@ -11,13 +11,13 @@ namespace OOP.Exercises5
         /// <param name="customer"></param>
         /// <param name="balance"></param>
         /// <param name="interestRate"></param>
-        public MortgageAccount(Customer customer, decimal balance, decimal interestRate)
+        public MortgageAccount(Customer customer, double balance, double interestRate)
             : base(customer, balance, interestRate)
         {
         }
 
         //Methods Deposit money.
-        public void Deposit(decimal depositMoney)
+        public void Deposit(double depositMoney)
         {
             if (depositMoney <= 0)
             {

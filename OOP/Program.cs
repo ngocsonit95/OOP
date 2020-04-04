@@ -1,17 +1,14 @@
-﻿using OOP.Exercises2;
+﻿using OOP.Exercises1;
+using OOP.Exercises2;
 using OOP.Exercises3;
 using OOP.Exercises4;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using OOP.Exercises1;
 
 namespace OOP
 {
-#pragma warning disable S1118 // Utility classes should not have public constructors
-
-    internal class Program
-#pragma warning restore S1118 // Utility classes should not have public constructors
+    internal static class Program
     {
         private static void Main()
         {
